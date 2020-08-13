@@ -1,0 +1,26 @@
+{
+    "name": "sinonjzh/laravel-l2d",
+    "description": "A live2d widget for laravel.",
+    "license": "GNU v3.0",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "SinonJZH",
+            "email": "sinon.jzh@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SinonJZH\\LaravelL2d\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SinonJZH\\LaravelL2d\\ServiceProvider"
+            ]
+        }
+    }
+}
