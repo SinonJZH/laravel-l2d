@@ -31,13 +31,13 @@
    ```
 ## 配置
 
-1. 修改live2d_api路径  
+1. （必须）修改live2d_api路径  
    `/resources/js/laravel-l2d/autoload.js`
    ```javascript
    if (screen.width >= 768) {
 	   initWidget({
-		   waifuPath: window.domain + "/vendor/laravel-l2d/waifu-tips.json",
-		   apiPath: "https://your.domain/your/api/path",//修改此项
+		   waifuPath: window.location.origin + "/vendor/laravel-l2d/waifu-tips.json",
+		   apiPath: "",  //Add your API path here
 	   });
    }
    //……

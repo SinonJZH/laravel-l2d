@@ -1,7 +1,7 @@
 if (screen.width >= 768) {
 	initWidget({
-		waifuPath: window.domain + "/vendor/laravel-l2d/waifu-tips.json",
-		apiPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/",
+		waifuPath: window.location.origin + "/vendor/laravel-l2d/waifu-tips.json",
+		apiPath: "",  //Add your API path here
 	});
 }
 
