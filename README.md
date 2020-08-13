@@ -18,7 +18,7 @@
    `/resources/js/app.js`
    ```javascript
    //……
-   require('./laravel-l2d/live2d-min.js');
+   require('./laravel-l2d/live2d.min.js');
    require('./laravel-l2d/autoload.js');
    ```
    `/resources/sass/app.scss`
